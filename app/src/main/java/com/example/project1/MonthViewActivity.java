@@ -28,7 +28,6 @@ public class MonthViewActivity extends AppCompatActivity {
     private GridView gridview;
     private Calendar mCalendar;
     private GridAdapter gridAdapter; //그리드뷰 어댑터
-
     private ArrayList<String> daylist;//날짜 저장 리스트
     int firstday; // 첫날의 요일
     int lastday; //달의 마지막 날짜
